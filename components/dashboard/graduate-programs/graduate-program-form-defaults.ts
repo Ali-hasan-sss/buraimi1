@@ -1,0 +1,23 @@
+export type GraduateProgramFormDefaults = {
+  slug?: string;
+  titleAr?: string;
+  titleEn?: string;
+  descriptionAr?: string;
+  descriptionEn?: string;
+  affiliationAr?: string;
+  affiliationEn?: string;
+  color?: string;
+  accentColor?: string;
+  carouselImage?: string;
+  specializationsAr?: string;
+  specializationsEn?: string;
+  feesAr?: string;
+  feesEn?: string;
+  creditsAr?: string;
+  creditsEn?: string;
+  totalFeesAr?: string;
+  totalFeesEn?: string;
+  featuresAr?: string[];
+  featuresEn?: string[];
+  order?: number;
+};

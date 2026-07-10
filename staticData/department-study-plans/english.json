@@ -1,0 +1,1457 @@
+{
+  "english-lit": {
+    "bachelor": {
+      "id": "bachelor",
+      "PlanHeader": {
+        "title": "خطة الدراسة في بكالوريوس اللغة الإنجليزية وآدابها",
+        "totalHour": 156,
+        "generalRequirementsHours": 21,
+        "departmentRequirementsHours": 63,
+        "majorRequirementsHours": 36,
+        "electiveRequirements": 36
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BCGE003",
+          "title": "المجتمع العماني",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BCGE004",
+          "title": "Study Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "BCGE009",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "COMP100",
+          "title": "Computers: Their Impact and use",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL005",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ENGL006",
+          "title": "Research Methodology",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL155"
+        },
+        {
+          "seq": 2,
+          "code": "ENGL098",
+          "title": "Introduction To Essay Writing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "ENGL102",
+          "title": "Intermediate Reading",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "ENGL103",
+          "title": "Basic English Grammar",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL152",
+          "title": "Oral Skills (1)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "ENGL153",
+          "title": "Oral Skills(2)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL152"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL154",
+          "title": "Advanced Communication Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL153"
+        },
+        {
+          "seq": 8,
+          "code": "ENGL155",
+          "title": "Essay Writing And Freshman Composition",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL098"
+        },
+        {
+          "seq": 9,
+          "code": "ENGL204",
+          "title": "Advanced Reading",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL102"
+        },
+        {
+          "seq": 10,
+          "code": "ENGL205",
+          "title": "Introduction To Translation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "ENGL255",
+          "title": "Introduction To English Literature",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 12,
+          "code": "ENGL301",
+          "title": "Introduction To Linguistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 13,
+          "code": "ENGL306",
+          "title": "Contrastive Linguistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL402"
+        },
+        {
+          "seq": 14,
+          "code": "ENGL307",
+          "title": "Morphology And Lexical Studies",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 15,
+          "code": "ENGL308",
+          "title": "Communicative Grammar",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL302"
+        },
+        {
+          "seq": 16,
+          "code": "ENGL375",
+          "title": "Advanced Academic Writing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL155"
+        },
+        {
+          "seq": 17,
+          "code": "ENGL402",
+          "title": "Phonetics And Phonology",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 18,
+          "code": "ENGL404",
+          "title": "Syntax",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL307"
+        },
+        {
+          "seq": 19,
+          "code": "ENGL408",
+          "title": "Semantics And Pragmatics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL307"
+        },
+        {
+          "seq": 20,
+          "code": "ENGL411",
+          "title": "Translation Of English And Arabic Text",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL205"
+        },
+        {
+          "seq": 21,
+          "code": "ENGL441",
+          "title": "Sociolinguistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ENGL265",
+          "title": "Victorian Novel",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL255"
+        },
+        {
+          "seq": 2,
+          "code": "ENGL302",
+          "title": "Introduction To Modern Grammar",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL103"
+        },
+        {
+          "seq": 3,
+          "code": "ENGL315",
+          "title": "Psychological Foundations Of Learning & Teaching",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 4,
+          "code": "ENGL363",
+          "title": "A Study Of Poetry",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL255"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL370",
+          "title": "Elizabethan Drama",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL255"
+        },
+        {
+          "seq": 6,
+          "code": "ENGL417",
+          "title": "Language Development And Acquisition",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL438",
+          "title": "Critical Approaches To Literature",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL475"
+        },
+        {
+          "seq": 8,
+          "code": "ENGL472",
+          "title": "Modern Novel",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL265"
+        },
+        {
+          "seq": 9,
+          "code": "ENGL473",
+          "title": "Modern Drama",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL370"
+        },
+        {
+          "seq": 10,
+          "code": "ENGL475",
+          "title": "Survey Of American Literature",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL255"
+        },
+        {
+          "seq": 11,
+          "code": "ENGL495",
+          "title": "Seminar In Literature / Linguistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL375"
+        },
+        {
+          "seq": 12,
+          "code": "ENGL525",
+          "title": "Methods Of Teaching (ESL)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL315"
+        }
+      ],
+      "electiveRequirements": [
+        {
+          "seq": 1,
+          "code": "ENGL208",
+          "title": "Introduction to Creative Writing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 2,
+          "code": "ENGL360",
+          "title": "Readings in Contemporary English Literature",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL155"
+        },
+        {
+          "seq": 3,
+          "code": "ENGL478",
+          "title": "American Literature in 20th century",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 4,
+          "code": "TRANS207",
+          "title": "Stylistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL155"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL313",
+          "title": "Applied Linguistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 6,
+          "code": "ENGL314",
+          "title": "Media Translation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL205"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL320",
+          "title": "Language and Culture",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 8,
+          "code": "ENGL365",
+          "title": "Literature in the Media",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL255"
+        },
+        {
+          "seq": 9,
+          "code": "ENGL385",
+          "title": "Comparative Literature",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL438"
+        },
+        {
+          "seq": 10,
+          "code": "ENGL461",
+          "title": "British Literature in 20th century",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL255"
+        },
+        {
+          "seq": 11,
+          "code": "ENGL405",
+          "title": "Language Change and Differences",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 12,
+          "code": "ENGL505",
+          "title": "Discourse Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        }
+      ]
+    },
+    "advancedDiploma": {
+      "id": "advancedDiploma",
+      "PlanHeader": {
+        "title": "خطة الدراسة في الدبلوم المتقدم - اللغة الإنجليزية وآدابها",
+        "totalHour": 132,
+        "generalRequirementsHours": 21,
+        "departmentRequirementsHours": 51,
+        "majorRequirementsHours": 24,
+        "electiveRequirements": 36
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "COMP100",
+          "title": "Computers: Their Impact and use",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL002",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "BCGE004",
+          "title": "Study Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "BCGE009",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ENGL006",
+          "title": "Research Methodology",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL155"
+        },
+        {
+          "seq": 2,
+          "code": "ENGL098",
+          "title": "Introduction To Essay Writing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "ENGL102",
+          "title": "Intermediate Reading",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "ENGL103",
+          "title": "Basic English Grammar",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL152",
+          "title": "Oral Skills (1)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "ENGL153",
+          "title": "Oral Skills(2)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL152"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL154",
+          "title": "Advanced Communication Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL153"
+        },
+        {
+          "seq": 8,
+          "code": "ENGL155",
+          "title": "Essay Writing And Freshman Composition",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL098"
+        },
+        {
+          "seq": 9,
+          "code": "ENGL204",
+          "title": "Advanced Reading",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL102"
+        },
+        {
+          "seq": 10,
+          "code": "ENGL205",
+          "title": "Introduction To Translation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "ENGL255",
+          "title": "Introduction To English Literature",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 12,
+          "code": "ENGL301",
+          "title": "Introduction To Linguistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 13,
+          "code": "ENGL306",
+          "title": "Contrastive Linguistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL402"
+        },
+        {
+          "seq": 14,
+          "code": "ENGL307",
+          "title": "Morphology And Lexical Studies",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 15,
+          "code": "ENGL308",
+          "title": "Communicative Grammar",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL302"
+        },
+        {
+          "seq": 16,
+          "code": "ENGL402",
+          "title": "Phonetics And Phonology",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 17,
+          "code": "ENGL441",
+          "title": "Sociolinguistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ENGL265",
+          "title": "Victorian Novel",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL255"
+        },
+        {
+          "seq": 2,
+          "code": "ENGL302",
+          "title": "Introduction To Modern Grammar",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL103"
+        },
+        {
+          "seq": 3,
+          "code": "ENGL315",
+          "title": "Psychological Foundations Of Learning & Teaching",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 4,
+          "code": "ENGL363",
+          "title": "A Study Of Poetry",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL255"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL370",
+          "title": "Elizabethan Drama",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL255"
+        },
+        {
+          "seq": 6,
+          "code": "ENGL417",
+          "title": "Language Development And Acquisition",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL438",
+          "title": "Critical Approaches To Literature",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL475"
+        },
+        {
+          "seq": 8,
+          "code": "ENGL475",
+          "title": "Survey Of American Literature",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL255"
+        }
+      ],
+      "electiveRequirements": [
+        {
+          "seq": 1,
+          "code": "ENGL208",
+          "title": "Introduction to Creative Writing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 2,
+          "code": "ENGL360",
+          "title": "Readings in Contemporary English Literature",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL155"
+        },
+        {
+          "seq": 3,
+          "code": "ENGL478",
+          "title": "American Literature in 20th century",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 4,
+          "code": "TRANS207",
+          "title": "Stylistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL155"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL313",
+          "title": "Applied Linguistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 6,
+          "code": "ENGL314",
+          "title": "Media Translation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL205"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL320",
+          "title": "Language and Culture",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 8,
+          "code": "ENGL365",
+          "title": "Literature in the Media",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL255"
+        },
+        {
+          "seq": 9,
+          "code": "ENGL385",
+          "title": "Comparative Literature",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL438"
+        },
+        {
+          "seq": 10,
+          "code": "ENGL461",
+          "title": "British Literature in 20th century",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL255"
+        },
+        {
+          "seq": 11,
+          "code": "ENGL405",
+          "title": "Language Change and Differences",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 12,
+          "code": "ENGL505",
+          "title": "Discourse Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        }
+      ]
+    },
+    "diploma": {
+      "id": "diploma",
+      "PlanHeader": {
+        "title": "خطة الدراسة في الدبلوم - اللغة الإنجليزية وآدابها",
+        "totalHour": 84,
+        "generalRequirementsHours": 36,
+        "departmentRequirementsHours": 33,
+        "majorRequirementsHours": 15,
+        "electiveRequirements": null
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "ENGL098",
+          "title": "Introduction To Essay Writing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ENGL102",
+          "title": "Intermediate Reading",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "ENGL103",
+          "title": "Basic English Grammar",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "ENGL152",
+          "title": "Oral Skills (1)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL153",
+          "title": "Oral Skills(2)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL152"
+        },
+        {
+          "seq": 6,
+          "code": "ENGL154",
+          "title": "Advanced Communication Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL153"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL155",
+          "title": "Essay Writing And Freshman Composition",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL098"
+        },
+        {
+          "seq": 8,
+          "code": "ENGL204",
+          "title": "Advanced Reading",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL102"
+        },
+        {
+          "seq": 9,
+          "code": "ENGL205",
+          "title": "Introduction To Translation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "ENGL255",
+          "title": "Introduction To English Literature",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "ENGL301",
+          "title": "Introduction To Linguistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 12,
+          "code": "ENGL402",
+          "title": "Phonetics And Phonology",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT220",
+          "title": "Introduction To Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT230",
+          "title": "Introduction To Managerial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "BLAW280",
+          "title": "Business Law - 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BUS105",
+          "title": "Business Communications",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 5,
+          "code": "ECON160",
+          "title": "Microeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL004"
+        },
+        {
+          "seq": 6,
+          "code": "ECON161",
+          "title": "Macroeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON160"
+        },
+        {
+          "seq": 7,
+          "code": "FIN303",
+          "title": "الإدارة المالية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 8,
+          "code": "MATH103",
+          "title": "Mathematical Methods For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 9,
+          "code": "MGT100",
+          "title": "Introduction To Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "MKT100",
+          "title": "Principles of Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "SOM120",
+          "title": "Basic Business Statistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MATH103"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ENGL265",
+          "title": "Victorian Novel",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL255"
+        },
+        {
+          "seq": 2,
+          "code": "ENGL302",
+          "title": "Introduction To Modern Grammar",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL103"
+        },
+        {
+          "seq": 3,
+          "code": "ENGL307",
+          "title": "Morphology and Lexical Studies",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 4,
+          "code": "ENGL363",
+          "title": "A Study Of Poetry",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL255"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL475",
+          "title": "Survey Of American Literature",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL255"
+        }
+      ],
+      "electiveRequirements": []
+    }
+  },
+  "translation": {
+    "bachelor": {
+      "id": "bachelor",
+      "PlanHeader": {
+        "title": "خطة الدراسة في بكالوريوس الترجمة",
+        "totalHour": 144,
+        "generalRequirementsHours": 21,
+        "departmentRequirementsHours": 63,
+        "majorRequirementsHours": 36,
+        "electiveRequirements": 24
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BCGE004",
+          "title": "Study Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "BCGE009",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "COMP100",
+          "title": "Computers: Their Impact and use",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL005",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ENGL006",
+          "title": "Research Methodology",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL155"
+        },
+        {
+          "seq": 2,
+          "code": "ENGL098",
+          "title": "Introduction To Essay Writing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "ENGL102",
+          "title": "Intermediate Reading",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "ENGL103",
+          "title": "Basic English Grammar",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL152",
+          "title": "Oral Skills (1)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "ENGL153",
+          "title": "Oral Skills(2)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL152"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL154",
+          "title": "Advanced Communication Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL153"
+        },
+        {
+          "seq": 8,
+          "code": "ENGL155",
+          "title": "Essay Writing And Freshman Composition",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL098"
+        },
+        {
+          "seq": 9,
+          "code": "ENGL204",
+          "title": "Advanced Reading",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL102"
+        },
+        {
+          "seq": 10,
+          "code": "ENGL205",
+          "title": "Introduction To Translation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "ENGL255",
+          "title": "Introduction To English Literature",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 12,
+          "code": "ENGL301",
+          "title": "Introduction To Linguistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 13,
+          "code": "ENGL306",
+          "title": "Contrastive Linguistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL402"
+        },
+        {
+          "seq": 14,
+          "code": "ENGL307",
+          "title": "Morphology And Lexical Studies",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 15,
+          "code": "ENGL308",
+          "title": "Communicative Grammar",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL302"
+        },
+        {
+          "seq": 16,
+          "code": "ENGL375",
+          "title": "Advanced Academic Writing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL155"
+        },
+        {
+          "seq": 17,
+          "code": "ENGL402",
+          "title": "Phonetics And Phonology",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 18,
+          "code": "ENGL404",
+          "title": "Syntax",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL307"
+        },
+        {
+          "seq": 19,
+          "code": "ENGL408",
+          "title": "Semantics And Pragmatics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL307"
+        },
+        {
+          "seq": 20,
+          "code": "ENGL411",
+          "title": "Translation Of English And Arabic Text",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL205"
+        },
+        {
+          "seq": 21,
+          "code": "ENGL441",
+          "title": "Sociolinguistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ENGL314",
+          "title": "Media Translation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL205"
+        },
+        {
+          "seq": 2,
+          "code": "TRANS304",
+          "title": "Translation of Financial & Legal Texts",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL205"
+        },
+        {
+          "seq": 3,
+          "code": "TRANS305",
+          "title": "Arabic Syntax",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL205"
+        },
+        {
+          "seq": 4,
+          "code": "TRANS311",
+          "title": "Translation Of Arabic- English Texts",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL205"
+        },
+        {
+          "seq": 5,
+          "code": "TRANS312",
+          "title": "Medical Translation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL411"
+        },
+        {
+          "seq": 6,
+          "code": "TRANS313",
+          "title": "Sight Translation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL411"
+        },
+        {
+          "seq": 7,
+          "code": "TRANS418",
+          "title": "Translation Theory",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL411"
+        },
+        {
+          "seq": 8,
+          "code": "TRANS412",
+          "title": "Translation For Communication",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL411"
+        },
+        {
+          "seq": 9,
+          "code": "TRANS413",
+          "title": "Translation Project",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "TRANS313"
+        },
+        {
+          "seq": 10,
+          "code": "TRANS414",
+          "title": "Translation Of Literary Texts",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL411"
+        },
+        {
+          "seq": 11,
+          "code": "TRANS416",
+          "title": "Consecutive Interpretation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL411"
+        },
+        {
+          "seq": 12,
+          "code": "TRANS419",
+          "title": "Computer Assisted Translation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL411"
+        }
+      ],
+      "electiveRequirements": [
+        {
+          "seq": 1,
+          "code": "ENGL313",
+          "title": "Applied Linguistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 2,
+          "code": "TRANS417",
+          "title": "Readings in Contemporary English Literature",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL205"
+        },
+        {
+          "seq": 3,
+          "code": "TRANS207",
+          "title": "Stylistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 4,
+          "code": "ENGL505",
+          "title": "Discourse Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL301"
+        },
+        {
+          "seq": 5,
+          "code": "TRANS315",
+          "title": "Business Translation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL411"
+        },
+        {
+          "seq": 6,
+          "code": "ENGL314",
+          "title": "Media Translation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL205"
+        },
+        {
+          "seq": 7,
+          "code": "TRANS210",
+          "title": "Western Culture",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL205"
+        },
+        {
+          "seq": 8,
+          "code": "TRANS316",
+          "title": "Advanced Translation Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL411"
+        }
+      ]
+    }
+  }
+}

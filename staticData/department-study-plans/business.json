@@ -1,0 +1,4683 @@
+{
+  "accounting": {
+    "diploma": {
+      "id": "diploma",
+      "PlanHeader": {
+        "title": "Diploma Accounting Plan of Study Structure",
+        "totalHour": 66,
+        "generalRequirementsHours": 21,
+        "departmentRequirementsHours": 36,
+        "majorRequirementsHours": 3,
+        "electiveRequirements": 48
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "COMP100",
+          "title": "Computers: Their Impact and use",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL002",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "BCGE004",
+          "title": "Study Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "BCGE009",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT220",
+          "title": "Introduction To Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT230",
+          "title": "Introduction To Managerial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "BLAW280",
+          "title": "Business Law - 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BUS105",
+          "title": "Business Communications",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ECON160",
+          "title": "Microeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "ECON161",
+          "title": "Macroeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON160"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL009",
+          "title": "Technical Writing I",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 8,
+          "code": "FIN303",
+          "title": "الإدارة المالية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 9,
+          "code": "MATH103",
+          "title": "Mathematical Methods For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "MGT100",
+          "title": "Introduction To Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "MKT100",
+          "title": "Principles of Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 12,
+          "code": "SOM120",
+          "title": "Basic Business Statistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MATH103"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT350",
+          "title": "Intermediate Financial Accounting 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        }
+      ],
+      "electiveRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT470",
+          "title": "Advanced Management Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT231",
+          "title": "Cost & Management Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 3,
+          "code": "ACCT425",
+          "title": "Senior Seminar in Accounting Theory",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 4,
+          "code": "ACCT428",
+          "title": "International Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 5,
+          "code": "ACCT440",
+          "title": "Taxation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 6,
+          "code": "ACCT460",
+          "title": "Auditing Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 7,
+          "code": "BUS401",
+          "title": "Research Methodology",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        },
+        {
+          "seq": 8,
+          "code": "ECON309",
+          "title": "Economics For Managers",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON161"
+        },
+        {
+          "seq": 9,
+          "code": "ECON312",
+          "title": "Banking & Operations Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON330"
+        },
+        {
+          "seq": 10,
+          "code": "ECON330",
+          "title": "Money & Banking",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON161"
+        },
+        {
+          "seq": 11,
+          "code": "FIN306",
+          "title": "Financial Statement Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "FIN303"
+        },
+        {
+          "seq": 12,
+          "code": "FIN431",
+          "title": "Risk Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "FIN303"
+        },
+        {
+          "seq": 13,
+          "code": "MGT302",
+          "title": "Supervised Training",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 14,
+          "code": "MGT662",
+          "title": "Strategic Planning & Implementation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 15,
+          "code": "PHIL305",
+          "title": "Business Ethics & Public Policy",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 16,
+          "code": "PSY352",
+          "title": "Motivation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        }
+      ]
+    },
+    "advancedDiploma": {
+      "id": "advancedDiploma",
+      "PlanHeader": {
+        "title": "Advanced Diploma Accounting Plan of Study Structure",
+        "totalHour": 99,
+        "generalRequirementsHours": 21,
+        "departmentRequirementsHours": 33,
+        "majorRequirementsHours": 39,
+        "electiveRequirements": 48
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "COMP100",
+          "title": "Computers: Their Impact and use",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL002",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "BCGE004",
+          "title": "Study Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "BCGE009",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT220",
+          "title": "Introduction To Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT230",
+          "title": "Introduction To Managerial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "BLAW280",
+          "title": "Business Law - 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BUS105",
+          "title": "Business Communications",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ECON160",
+          "title": "Microeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "ECON161",
+          "title": "Macroeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON160"
+        },
+        {
+          "seq": 7,
+          "code": "FIN303",
+          "title": "الإدارة المالية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 8,
+          "code": "MATH103",
+          "title": "Mathematical Methods For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 9,
+          "code": "MGT100",
+          "title": "Introduction To Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "MKT100",
+          "title": "Principles of Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "SOM120",
+          "title": "Basic Business Statistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MATH103"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT300",
+          "title": "Computer Application in Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "COMP100 - ACCT220"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT350",
+          "title": "Intermediate Financial Accounting 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "ACCT351",
+          "title": "Intermediate Financial Accounting II",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT350"
+        },
+        {
+          "seq": 4,
+          "code": "ACCT352",
+          "title": "Intermediate Financial Accounting III",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT351"
+        },
+        {
+          "seq": 5,
+          "code": "ACCT380",
+          "title": "Cost Measurement and Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 6,
+          "code": "ENGL007",
+          "title": "English for Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 7,
+          "code": "IS312",
+          "title": "Information Systems For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "COMP100"
+        },
+        {
+          "seq": 8,
+          "code": "MGT201",
+          "title": "تخصص تنمية الموارد البشرية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 9,
+          "code": "MGT360",
+          "title": "Management & Organizational Behavior",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 10,
+          "code": "MKT304",
+          "title": "Introduction To Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MKT100"
+        },
+        {
+          "seq": 11,
+          "code": "MKT445",
+          "title": "International Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MKT100"
+        },
+        {
+          "seq": 12,
+          "code": "SOM306",
+          "title": "Operations Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        },
+        {
+          "seq": 13,
+          "code": "SOM316",
+          "title": "Quantitative Analysis In Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        }
+      ],
+      "electiveRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT470",
+          "title": "Advanced Management Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT231",
+          "title": "Cost & Management Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 3,
+          "code": "ACCT425",
+          "title": "Senior Seminar in Accounting Theory",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 4,
+          "code": "ACCT428",
+          "title": "International Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 5,
+          "code": "ACCT440",
+          "title": "Taxation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 6,
+          "code": "ACCT460",
+          "title": "Auditing Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 7,
+          "code": "BUS401",
+          "title": "Research Methodology",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        },
+        {
+          "seq": 8,
+          "code": "ECON309",
+          "title": "Economics For Managers",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON161"
+        },
+        {
+          "seq": 9,
+          "code": "ECON312",
+          "title": "Banking & Operations Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON330"
+        },
+        {
+          "seq": 10,
+          "code": "ECON330",
+          "title": "Money & Banking",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON161"
+        },
+        {
+          "seq": 11,
+          "code": "FIN306",
+          "title": "Financial Statement Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "FIN303"
+        },
+        {
+          "seq": 12,
+          "code": "FIN431",
+          "title": "Risk Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "FIN303"
+        },
+        {
+          "seq": 13,
+          "code": "MGT302",
+          "title": "Supervised Training",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 14,
+          "code": "MGT662",
+          "title": "Strategic Planning & Implementation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 15,
+          "code": "PHIL305",
+          "title": "Business Ethics & Public Policy",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 16,
+          "code": "PSY352",
+          "title": "Motivation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        }
+      ]
+    },
+    "bachelor": {
+      "id": "bachelor",
+      "PlanHeader": {
+        "title": "Bachelor Accounting Plan of Study Structure",
+        "totalHour": 129,
+        "generalRequirementsHours": 21,
+        "departmentRequirementsHours": 36,
+        "majorRequirementsHours": 42,
+        "electiveRequirements": 48
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "COMP100",
+          "title": "Computers: Their Impact and use",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL002",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "BCGE004",
+          "title": "Study Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "BCGE009",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT220",
+          "title": "Introduction To Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT230",
+          "title": "Introduction To Managerial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "BLAW280",
+          "title": "Business Law - 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BUS105",
+          "title": "Business Communications",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ECON160",
+          "title": "Microeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "ECON161",
+          "title": "Macroeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON160"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL009",
+          "title": "Technical Writing I",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 8,
+          "code": "FIN303",
+          "title": "الإدارة المالية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 9,
+          "code": "MATH103",
+          "title": "Mathematical Methods For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "MGT100",
+          "title": "Introduction To Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "MKT100",
+          "title": "Principles of Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 12,
+          "code": "SOM120",
+          "title": "Basic Business Statistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MATH103"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT300",
+          "title": "Computer Application in Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "COMP100 - ACCT220"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT350",
+          "title": "Intermediate Financial Accounting 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "ACCT351",
+          "title": "Intermediate Financial Accounting II",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT350"
+        },
+        {
+          "seq": 4,
+          "code": "ACCT352",
+          "title": "Intermediate Financial Accounting III",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT351"
+        },
+        {
+          "seq": 5,
+          "code": "ACCT380",
+          "title": "Cost Measurement and Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 6,
+          "code": "ACCT450",
+          "title": "Advanced Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 7,
+          "code": "IS312",
+          "title": "Information Systems For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "COMP100"
+        },
+        {
+          "seq": 8,
+          "code": "MGT201",
+          "title": "تخصص تنمية الموارد البشرية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 9,
+          "code": "MGT360",
+          "title": "Management & Organizational Behavior",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 10,
+          "code": "MGT402",
+          "title": "مشروع التخرج",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "BUS401"
+        },
+        {
+          "seq": 11,
+          "code": "MKT304",
+          "title": "Introduction To Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MKT100"
+        },
+        {
+          "seq": 12,
+          "code": "MKT445",
+          "title": "International Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MKT100"
+        },
+        {
+          "seq": 13,
+          "code": "SOM306",
+          "title": "Operations Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        },
+        {
+          "seq": 14,
+          "code": "SOM316",
+          "title": "Quantitative Analysis In Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        }
+      ],
+      "electiveRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT470",
+          "title": "Advanced Management Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT231",
+          "title": "Cost & Management Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 3,
+          "code": "ACCT425",
+          "title": "Senior Seminar in Accounting Theory",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 4,
+          "code": "ACCT428",
+          "title": "International Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 5,
+          "code": "ACCT440",
+          "title": "Taxation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 6,
+          "code": "ACCT460",
+          "title": "Auditing Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 7,
+          "code": "BUS401",
+          "title": "Research Methodology",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        },
+        {
+          "seq": 8,
+          "code": "ECON309",
+          "title": "Economics For Managers",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON161"
+        },
+        {
+          "seq": 9,
+          "code": "ECON312",
+          "title": "Banking & Operations Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON330"
+        },
+        {
+          "seq": 10,
+          "code": "ECON330",
+          "title": "Money & Banking",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON161"
+        },
+        {
+          "seq": 11,
+          "code": "FIN306",
+          "title": "Financial Statement Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "FIN303"
+        },
+        {
+          "seq": 12,
+          "code": "FIN431",
+          "title": "Risk Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "FIN303"
+        },
+        {
+          "seq": 13,
+          "code": "MGT302",
+          "title": "Supervised Training",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 14,
+          "code": "MGT662",
+          "title": "Strategic Planning & Implementation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 15,
+          "code": "PHIL305",
+          "title": "Business Ethics & Public Policy",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 16,
+          "code": "PSY352",
+          "title": "Motivation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        }
+      ]
+    }
+  },
+  "hrm": {
+    "bachelor": {
+      "id": "bachelor",
+      "PlanHeader": {
+        "title": "Bachelor Human Resource Development Plan of Study Structure",
+        "totalHour": 129,
+        "generalRequirementsHours": 21,
+        "departmentRequirementsHours": 36,
+        "majorRequirementsHours": 42,
+        "electiveRequirements": 48
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "COMP100",
+          "title": "Computers: Their Impact and use",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL002",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "BCGE004",
+          "title": "Study Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "BCGE009",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT220",
+          "title": "Introduction To Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT230",
+          "title": "Introduction To Managerial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "BLAW280",
+          "title": "Business Law - 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BUS105",
+          "title": "Business Communications",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 5,
+          "code": "ECON160",
+          "title": "Microeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL004"
+        },
+        {
+          "seq": 6,
+          "code": "ECON161",
+          "title": "Macroeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON160"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL007",
+          "title": "English For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 8,
+          "code": "FIN303",
+          "title": "الإدارة المالية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 9,
+          "code": "MATH103",
+          "title": "Mathematical Methods For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "MGT100",
+          "title": "Introduction To Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "MKT100",
+          "title": "Principles of Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 12,
+          "code": "SOM120",
+          "title": "Basic Business Statistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MATH103"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT300",
+          "title": "Computer Application in Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "COMP100 - ACCT220"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT350",
+          "title": "Intermediate Financial Accounting 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "ACCT351",
+          "title": "Intermediate Financial Accounting II",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT350"
+        },
+        {
+          "seq": 4,
+          "code": "ACCT352",
+          "title": "Intermediate Financial Accounting III",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT351"
+        },
+        {
+          "seq": 5,
+          "code": "ACCT380",
+          "title": "Cost Measurement and Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 6,
+          "code": "ACCT450",
+          "title": "Advanced Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 7,
+          "code": "IS312",
+          "title": "Information Systems For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "COMP100"
+        },
+        {
+          "seq": 8,
+          "code": "MGT201",
+          "title": "تخصص تنمية الموارد البشرية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 9,
+          "code": "MGT360",
+          "title": "Management & Organizational Behavior",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 10,
+          "code": "MGT402",
+          "title": "مشروع التخرج",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "BUS401"
+        },
+        {
+          "seq": 11,
+          "code": "MKT304",
+          "title": "Introduction To Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MKT100"
+        },
+        {
+          "seq": 12,
+          "code": "MKT445",
+          "title": "International Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MKT100"
+        },
+        {
+          "seq": 13,
+          "code": "SOM306",
+          "title": "Operations Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        },
+        {
+          "seq": 14,
+          "code": "SOM316",
+          "title": "Quantitative Analysis In Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        }
+      ],
+      "electiveRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT470",
+          "title": "Advanced Management Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT231",
+          "title": "Cost & Management Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 3,
+          "code": "ACCT425",
+          "title": "Senior Seminar in Accounting Theory",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 4,
+          "code": "ACCT428",
+          "title": "International Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 5,
+          "code": "ACCT440",
+          "title": "Taxation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 6,
+          "code": "ACCT460",
+          "title": "Auditing Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 7,
+          "code": "BUS401",
+          "title": "Research Methodology",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        },
+        {
+          "seq": 8,
+          "code": "ECON309",
+          "title": "Economics For Managers",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON161"
+        },
+        {
+          "seq": 9,
+          "code": "ECON312",
+          "title": "Banking & Operations Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON330"
+        },
+        {
+          "seq": 10,
+          "code": "ECON330",
+          "title": "Money & Banking",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON161"
+        },
+        {
+          "seq": 11,
+          "code": "FIN306",
+          "title": "Financial Statement Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "FIN303"
+        },
+        {
+          "seq": 12,
+          "code": "FIN431",
+          "title": "Risk Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "FIN303"
+        },
+        {
+          "seq": 13,
+          "code": "MGT302",
+          "title": "Supervised Training",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 14,
+          "code": "MGT662",
+          "title": "Strategic Planning & Implementation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 15,
+          "code": "PHIL305",
+          "title": "Business Ethics & Public Policy",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 16,
+          "code": "PSY352",
+          "title": "Motivation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        }
+      ]
+    },
+    "advancedDiploma": {
+      "id": "advancedDiploma",
+      "PlanHeader": {
+        "title": "Advanced Diploma Human Resource Development Plan of Study Structure",
+        "totalHour": 102,
+        "generalRequirementsHours": 21,
+        "departmentRequirementsHours": 33,
+        "majorRequirementsHours": 39,
+        "electiveRequirements": null
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "COMP100",
+          "title": "Computers: Their Impact and use",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL002",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "BCGE004",
+          "title": "Study Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "BCGE009",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT220",
+          "title": "Introduction To Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT230",
+          "title": "Introduction To Managerial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "BLAW280",
+          "title": "Business Law - 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BUS105",
+          "title": "Business Communications",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 5,
+          "code": "ECON160",
+          "title": "Microeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL004"
+        },
+        {
+          "seq": 6,
+          "code": "ECON161",
+          "title": "Macroeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON160"
+        },
+        {
+          "seq": 7,
+          "code": "FIN303",
+          "title": "الإدارة المالية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 8,
+          "code": "MATH103",
+          "title": "Mathematical Methods For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 9,
+          "code": "MGT100",
+          "title": "Introduction To Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "MKT100",
+          "title": "Principles of Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "SOM120",
+          "title": "Basic Business Statistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MATH103"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT300",
+          "title": "Computer Application in Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "COMP100 - ACCT220"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT350",
+          "title": "Intermediate Financial Accounting 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "ACCT351",
+          "title": "Intermediate Financial Accounting II",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT350"
+        },
+        {
+          "seq": 4,
+          "code": "ACCT352",
+          "title": "Intermediate Financial Accounting III",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT351"
+        },
+        {
+          "seq": 5,
+          "code": "ACCT380",
+          "title": "Cost Measurement and Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 6,
+          "code": "ENGL007",
+          "title": "English for Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 7,
+          "code": "IS312",
+          "title": "Information Systems For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "COMP100"
+        },
+        {
+          "seq": 8,
+          "code": "MGT201",
+          "title": "تخصص تنمبة الموارد البشرية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 9,
+          "code": "MGT360",
+          "title": "Management & Organizational Behavior",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 10,
+          "code": "MKT304",
+          "title": "Introduction To Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MKT100"
+        },
+        {
+          "seq": 11,
+          "code": "MKT445",
+          "title": "International Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MKT100"
+        },
+        {
+          "seq": 12,
+          "code": "SOM306",
+          "title": "Operations Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        },
+        {
+          "seq": 13,
+          "code": "SOM316",
+          "title": "Quantitative Analysis In Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        }
+      ],
+      "electiveRequirements": []
+    },
+    "diploma": {
+      "id": "diploma",
+      "PlanHeader": {
+        "title": "Diploma Human Resource Development Plan of Study Structure",
+        "totalHour": 105,
+        "generalRequirementsHours": 21,
+        "departmentRequirementsHours": 36,
+        "majorRequirementsHours": 3,
+        "electiveRequirements": 48
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "COMP100",
+          "title": "Computers: Their Impact and use",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL002",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "BCGE004",
+          "title": "Study Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "BCGE009",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT220",
+          "title": "Introduction To Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT230",
+          "title": "Introduction To Managerial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "BLAW280",
+          "title": "Business Law - 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BUS105",
+          "title": "Business Communications",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 5,
+          "code": "ECON160",
+          "title": "Microeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL004"
+        },
+        {
+          "seq": 6,
+          "code": "ECON161",
+          "title": "Macroeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON160"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL007",
+          "title": "English For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 8,
+          "code": "FIN303",
+          "title": "الإدارة المالية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 9,
+          "code": "MATH103",
+          "title": "Mathematical Methods For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "MGT100",
+          "title": "Introduction To Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "MKT100",
+          "title": "Principles of Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 12,
+          "code": "SOM120",
+          "title": "Basic Business Statistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MATH103"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT350",
+          "title": "Intermediate Financial Accounting 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        }
+      ],
+      "electiveRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT470",
+          "title": "Advanced Management Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT231",
+          "title": "Cost & Management Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 3,
+          "code": "ACCT425",
+          "title": "Senior Seminar in Accounting Theory",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 4,
+          "code": "ACCT428",
+          "title": "International Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 5,
+          "code": "ACCT440",
+          "title": "Taxation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 6,
+          "code": "ACCT460",
+          "title": "Auditing Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 7,
+          "code": "BUS401",
+          "title": "Research Methodology",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        },
+        {
+          "seq": 8,
+          "code": "ECON309",
+          "title": "Economics For Managers",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON161"
+        },
+        {
+          "seq": 9,
+          "code": "ECON312",
+          "title": "Banking & Operations Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON330"
+        },
+        {
+          "seq": 10,
+          "code": "ECON330",
+          "title": "Money & Banking",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON161"
+        },
+        {
+          "seq": 11,
+          "code": "FIN306",
+          "title": "Financial Statement Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "FIN303"
+        },
+        {
+          "seq": 12,
+          "code": "FIN431",
+          "title": "Risk Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "FIN303"
+        },
+        {
+          "seq": 13,
+          "code": "MGT302",
+          "title": "Supervised Training",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 14,
+          "code": "MGT662",
+          "title": "Strategic Planning & Implementation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 15,
+          "code": "PHIL305",
+          "title": "Business Ethics & Public Policy",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 16,
+          "code": "PSY352",
+          "title": "Motivation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        }
+      ]
+    }
+  },
+  "business-admin": {
+    "bachelor": {
+      "id": "bachelor",
+      "PlanHeader": {
+        "title": "الخطة الدراسية التفصيلية",
+        "totalHour": 129,
+        "generalRequirementsHours": 21,
+        "departmentRequirementsHours": 36,
+        "majorRequirementsHours": 42,
+        "electiveRequirements": null
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "COMP100",
+          "title": "Computers: Their Impact and use",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL002",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "BCGE004",
+          "title": "Study Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "BCGE009",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT220",
+          "title": "Introduction To Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT230",
+          "title": "Introduction To Managerial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "BLAW280",
+          "title": "Business Law - 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BUS105",
+          "title": "Business Communications",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 5,
+          "code": "ECON160",
+          "title": "Microeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL004"
+        },
+        {
+          "seq": 6,
+          "code": "ECON161",
+          "title": "Macroeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON160"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL007",
+          "title": "English For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 8,
+          "code": "FIN303",
+          "title": "الإدارة المالية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 9,
+          "code": "MATH103",
+          "title": "Mathematical Methods For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "MGT100",
+          "title": "Introduction To Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "MKT100",
+          "title": "Principles of Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 12,
+          "code": "SOM120",
+          "title": "Basic Business Statistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MATH103"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT300",
+          "title": "Computer Application in Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "COMP100 - ACCT220"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT350",
+          "title": "Intermediate Financial Accounting 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "ACCT351",
+          "title": "Intermediate Financial Accounting II",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT350"
+        },
+        {
+          "seq": 4,
+          "code": "ACCT352",
+          "title": "Intermediate Financial Accounting III",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT351"
+        },
+        {
+          "seq": 5,
+          "code": "ACCT380",
+          "title": "Cost Measurement and Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 6,
+          "code": "ACCT450",
+          "title": "Advanced Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 7,
+          "code": "IS312",
+          "title": "Information Systems For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "COMP100"
+        },
+        {
+          "seq": 8,
+          "code": "MGT201",
+          "title": "تخصص تنمبة الموارد البشرية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 9,
+          "code": "MGT360",
+          "title": "Management & Organizational Behavior",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 10,
+          "code": "MGT402",
+          "title": "مشروع التخرج",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "BUS401"
+        },
+        {
+          "seq": 11,
+          "code": "MKT304",
+          "title": "Introduction To Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MKT100"
+        },
+        {
+          "seq": 12,
+          "code": "MKT445",
+          "title": "International Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MKT100"
+        },
+        {
+          "seq": 13,
+          "code": "SOM306",
+          "title": "Operations Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        },
+        {
+          "seq": 14,
+          "code": "SOM316",
+          "title": "Quantitative Analysis In Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        }
+      ],
+      "electiveRequirements": []
+    },
+    "advancedDiploma": {
+      "id": "advancedDiploma",
+      "PlanHeader": {
+        "title": "الخطة الدراسية التفصيلية",
+        "totalHour": 99,
+        "generalRequirementsHours": 21,
+        "departmentRequirementsHours": 33,
+        "majorRequirementsHours": 39,
+        "electiveRequirements": null
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "COMP100",
+          "title": "Computers: Their Impact and use",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL002",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "BCGE004",
+          "title": "Study Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "BCGE009",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT220",
+          "title": "Introduction To Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT230",
+          "title": "Introduction To Managerial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "BLAW280",
+          "title": "Business Law - 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BUS105",
+          "title": "Business Communications",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 5,
+          "code": "ECON160",
+          "title": "Microeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL004"
+        },
+        {
+          "seq": 6,
+          "code": "ECON161",
+          "title": "Macroeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON160"
+        },
+        {
+          "seq": 7,
+          "code": "FIN303",
+          "title": "الإدارة المالية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 8,
+          "code": "MATH103",
+          "title": "Mathematical Methods For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 9,
+          "code": "MGT100",
+          "title": "Introduction To Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "MKT100",
+          "title": "Principles of Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "SOM120",
+          "title": "Basic Business Statistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MATH103"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT300",
+          "title": "Computer Application in Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "COMP100 - ACCT220"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT350",
+          "title": "Intermediate Financial Accounting 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "ACCT351",
+          "title": "Intermediate Financial Accounting II",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT350"
+        },
+        {
+          "seq": 4,
+          "code": "ACCT352",
+          "title": "Intermediate Financial Accounting III",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT351"
+        },
+        {
+          "seq": 5,
+          "code": "ACCT380",
+          "title": "Cost Measurement and Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 6,
+          "code": "ENGL007",
+          "title": "English for Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 7,
+          "code": "IS312",
+          "title": "Information Systems For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "COMP100"
+        },
+        {
+          "seq": 8,
+          "code": "MGT201",
+          "title": "تخصص تنمبة الموارد البشرية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 9,
+          "code": "MGT360",
+          "title": "Management & Organizational Behavior",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 10,
+          "code": "MKT304",
+          "title": "Introduction To Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MKT100"
+        },
+        {
+          "seq": 11,
+          "code": "MKT445",
+          "title": "International Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MKT100"
+        },
+        {
+          "seq": 12,
+          "code": "SOM306",
+          "title": "Operations Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        },
+        {
+          "seq": 13,
+          "code": "SOM316",
+          "title": "Quantitative Analysis In Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        }
+      ],
+      "electiveRequirements": []
+    },
+    "diploma": {
+      "id": "diploma",
+      "PlanHeader": {
+        "title": "Diploma Business Administration Plan of Study Structure",
+        "totalHour": 69,
+        "generalRequirementsHours": 21,
+        "departmentRequirementsHours": 36,
+        "majorRequirementsHours": 3,
+        "electiveRequirements": 48
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "COMP100",
+          "title": "Computers: Their Impact and use",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL002",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "BCGE004",
+          "title": "Study Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "BCGE009",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT220",
+          "title": "Introduction To Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT230",
+          "title": "Introduction To Managerial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "BLAW280",
+          "title": "Business Law - 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BUS105",
+          "title": "Business Communications",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 5,
+          "code": "ECON160",
+          "title": "Microeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL004"
+        },
+        {
+          "seq": 6,
+          "code": "ECON161",
+          "title": "Macroeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON160"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL007",
+          "title": "English For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 8,
+          "code": "FIN303",
+          "title": "الإدارة المالية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 9,
+          "code": "MATH103",
+          "title": "Mathematical Methods For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "MGT100",
+          "title": "Introduction To Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "MKT100",
+          "title": "Principles of Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 12,
+          "code": "SOM120",
+          "title": "Basic Business Statistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MATH103"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT350",
+          "title": "Intermediate Financial Accounting 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        }
+      ],
+      "electiveRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT470",
+          "title": "Advanced Management Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT231",
+          "title": "Cost & Management Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 3,
+          "code": "ACCT425",
+          "title": "Senior Seminar in Accounting Theory",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 4,
+          "code": "ACCT428",
+          "title": "International Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 5,
+          "code": "ACCT440",
+          "title": "Taxation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 6,
+          "code": "ACCT460",
+          "title": "Auditing Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 7,
+          "code": "BUS401",
+          "title": "Research Methodology",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        },
+        {
+          "seq": 8,
+          "code": "ECON309",
+          "title": "Economics For Managers",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON161"
+        },
+        {
+          "seq": 9,
+          "code": "ECON312",
+          "title": "Banking & Operations Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON330"
+        },
+        {
+          "seq": 10,
+          "code": "ECON330",
+          "title": "Money & Banking",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON161"
+        },
+        {
+          "seq": 11,
+          "code": "FIN306",
+          "title": "Financial Statement Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "FIN303"
+        },
+        {
+          "seq": 12,
+          "code": "FIN431",
+          "title": "Risk Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "FIN303"
+        },
+        {
+          "seq": 13,
+          "code": "MGT302",
+          "title": "Supervised Training",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 14,
+          "code": "MGT662",
+          "title": "Strategic Planning & Implementation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 15,
+          "code": "PHIL305",
+          "title": "Business Ethics & Public Policy",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 16,
+          "code": "PSY352",
+          "title": "Motivation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        }
+      ]
+    }
+  },
+  "finance-banking": {
+    "bachelor": {
+      "id": "bachelor",
+      "PlanHeader": {
+        "title": "Bachelor Finance & Banking Plan of Study Structure",
+        "totalHour": 129,
+        "generalRequirementsHours": 21,
+        "departmentRequirementsHours": 36,
+        "majorRequirementsHours": 42,
+        "electiveRequirements": null
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "COMP100",
+          "title": "Computers: Their Impact and use",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL002",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "BCGE004",
+          "title": "Study Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "BCGE009",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT220",
+          "title": "Introduction To Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT230",
+          "title": "Introduction To Managerial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "BLAW280",
+          "title": "Business Law - 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BUS105",
+          "title": "Business Communications",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 5,
+          "code": "ECON160",
+          "title": "Microeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL004"
+        },
+        {
+          "seq": 6,
+          "code": "ECON161",
+          "title": "Macroeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON160"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL007",
+          "title": "English For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 8,
+          "code": "FIN303",
+          "title": "الإدارة المالية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 9,
+          "code": "MATH103",
+          "title": "Mathematical Methods For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "MGT100",
+          "title": "Introduction To Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "MKT100",
+          "title": "Principles of Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 12,
+          "code": "SOM120",
+          "title": "Basic Business Statistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MATH103"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT300",
+          "title": "Computer Application in Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "COMP100 - ACCT220"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT350",
+          "title": "Intermediate Financial Accounting 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "ACCT351",
+          "title": "Intermediate Financial Accounting II",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT350"
+        },
+        {
+          "seq": 4,
+          "code": "ACCT352",
+          "title": "Intermediate Financial Accounting III",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT351"
+        },
+        {
+          "seq": 5,
+          "code": "ACCT380",
+          "title": "Cost Measurement and Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 6,
+          "code": "ACCT450",
+          "title": "Advanced Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 7,
+          "code": "IS312",
+          "title": "Information Systems For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "COMP100"
+        },
+        {
+          "seq": 8,
+          "code": "MGT201",
+          "title": "تخصص تنمبة الموارد البشرية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 9,
+          "code": "MGT360",
+          "title": "Management & Organizational Behavior",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 10,
+          "code": "MGT402",
+          "title": "مشروع التخرج",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "BUS401"
+        },
+        {
+          "seq": 11,
+          "code": "MKT304",
+          "title": "Introduction To Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MKT100"
+        },
+        {
+          "seq": 12,
+          "code": "MKT445",
+          "title": "International Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MKT100"
+        },
+        {
+          "seq": 13,
+          "code": "SOM306",
+          "title": "Operations Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        },
+        {
+          "seq": 14,
+          "code": "SOM316",
+          "title": "Quantitative Analysis In Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        }
+      ],
+      "electiveRequirements": []
+    },
+    "advancedDiploma": {
+      "id": "advancedDiploma",
+      "PlanHeader": {
+        "title": "Advanced Diploma Finance & Banking Plan of Study Structure",
+        "totalHour": 99,
+        "generalRequirementsHours": 21,
+        "departmentRequirementsHours": 33,
+        "majorRequirementsHours": 39,
+        "electiveRequirements": null
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "COMP100",
+          "title": "Computers: Their Impact and use",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL002",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "BCGE004",
+          "title": "Study Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "BCGE009",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT220",
+          "title": "Introduction To Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT230",
+          "title": "Introduction To Managerial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "BLAW280",
+          "title": "Business Law - 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BUS105",
+          "title": "Business Communications",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 5,
+          "code": "ECON160",
+          "title": "Microeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL004"
+        },
+        {
+          "seq": 6,
+          "code": "ECON161",
+          "title": "Macroeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON160"
+        },
+        {
+          "seq": 7,
+          "code": "FIN303",
+          "title": "الإدارة المالية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 8,
+          "code": "MATH103",
+          "title": "Mathematical Methods For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 9,
+          "code": "MGT100",
+          "title": "Introduction To Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "MKT100",
+          "title": "Principles of Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "SOM120",
+          "title": "Basic Business Statistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MATH103"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT300",
+          "title": "Computer Application in Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "COMP100 - ACCT220"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT350",
+          "title": "Intermediate Financial Accounting 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "ACCT351",
+          "title": "Intermediate Financial Accounting II",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT350"
+        },
+        {
+          "seq": 4,
+          "code": "ACCT352",
+          "title": "Intermediate Financial Accounting III",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT351"
+        },
+        {
+          "seq": 5,
+          "code": "ACCT380",
+          "title": "Cost Measurement and Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 6,
+          "code": "ENGL007",
+          "title": "English for Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 7,
+          "code": "IS312",
+          "title": "Information Systems For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "COMP100"
+        },
+        {
+          "seq": 8,
+          "code": "MGT201",
+          "title": "تخصص تنمبة الموارد البشرية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 9,
+          "code": "MGT360",
+          "title": "Management & Organizational Behavior",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 10,
+          "code": "MKT304",
+          "title": "Introduction To Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MKT100"
+        },
+        {
+          "seq": 11,
+          "code": "MKT445",
+          "title": "International Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MKT100"
+        },
+        {
+          "seq": 12,
+          "code": "SOM306",
+          "title": "Operations Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        },
+        {
+          "seq": 13,
+          "code": "SOM316",
+          "title": "Quantitative Analysis In Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        }
+      ],
+      "electiveRequirements": []
+    },
+    "diploma": {
+      "id": "diploma",
+      "PlanHeader": {
+        "title": "Diploma Finance & Banking Plan of Study Structure",
+        "totalHour": 69,
+        "generalRequirementsHours": 21,
+        "departmentRequirementsHours": 36,
+        "majorRequirementsHours": 3,
+        "electiveRequirements": 48
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "COMP100",
+          "title": "Computers: Their Impact and use",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ENGL002",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "BCGE004",
+          "title": "Study Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "BCGE009",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT220",
+          "title": "Introduction To Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT230",
+          "title": "Introduction To Managerial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 3,
+          "code": "BLAW280",
+          "title": "Business Law - 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BUS105",
+          "title": "Business Communications",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 5,
+          "code": "ECON160",
+          "title": "Microeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL004"
+        },
+        {
+          "seq": 6,
+          "code": "ECON161",
+          "title": "Macroeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON160"
+        },
+        {
+          "seq": 7,
+          "code": "ENGL007",
+          "title": "English For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ENGL002"
+        },
+        {
+          "seq": 8,
+          "code": "FIN303",
+          "title": "الإدارة المالية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        },
+        {
+          "seq": 9,
+          "code": "MATH103",
+          "title": "Mathematical Methods For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "MGT100",
+          "title": "Introduction To Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "MKT100",
+          "title": "Principles of Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 12,
+          "code": "SOM120",
+          "title": "Basic Business Statistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MATH103"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT350",
+          "title": "Intermediate Financial Accounting 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT220"
+        }
+      ],
+      "electiveRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT470",
+          "title": "Advanced Management Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT231",
+          "title": "Cost & Management Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT230"
+        },
+        {
+          "seq": 3,
+          "code": "ACCT425",
+          "title": "Senior Seminar in Accounting Theory",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 4,
+          "code": "ACCT428",
+          "title": "International Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 5,
+          "code": "ACCT440",
+          "title": "Taxation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 6,
+          "code": "ACCT460",
+          "title": "Auditing Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ACCT352"
+        },
+        {
+          "seq": 7,
+          "code": "BUS401",
+          "title": "Research Methodology",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "SOM120"
+        },
+        {
+          "seq": 8,
+          "code": "ECON309",
+          "title": "Economics For Managers",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON161"
+        },
+        {
+          "seq": 9,
+          "code": "ECON312",
+          "title": "Banking & Operations Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON330"
+        },
+        {
+          "seq": 10,
+          "code": "ECON330",
+          "title": "Money & Banking",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "ECON161"
+        },
+        {
+          "seq": 11,
+          "code": "FIN306",
+          "title": "Financial Statement Analysis",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "FIN303"
+        },
+        {
+          "seq": 12,
+          "code": "FIN431",
+          "title": "Risk Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "FIN303"
+        },
+        {
+          "seq": 13,
+          "code": "MGT302",
+          "title": "Supervised Training",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 14,
+          "code": "MGT662",
+          "title": "Strategic Planning & Implementation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        },
+        {
+          "seq": 15,
+          "code": "PHIL305",
+          "title": "Business Ethics & Public Policy",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 16,
+          "code": "PSY352",
+          "title": "Motivation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "MGT100"
+        }
+      ]
+    }
+  },
+  "marketing": {
+    "bachelor": {
+      "id": "bachelor",
+      "PlanHeader": {
+        "title": "Bachelor Marketing Plan of Study Structure",
+        "totalHour": 111,
+        "generalRequirementsHours": 33,
+        "departmentRequirementsHours": 75,
+        "majorRequirementsHours": 15,
+        "electiveRequirements": 33
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "GFP100",
+          "title": "Intensive English 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "GFP200",
+          "title": "Intensive English 2",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "GFPM1",
+          "title": "Basic Mathematics (English)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "GFPM2",
+          "title": "Pure Mathematics (English)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "GFPM3",
+          "title": "Applied Mathematics (English)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "GFPCA1",
+          "title": "Computer Systems and Application",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 8,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 9,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "BCGE004",
+          "title": "Study Skills",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "BCGE010",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ACCT220",
+          "title": "Introduction To Financial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ACCT230",
+          "title": "Introduction To Managerial Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BLAW280",
+          "title": "Business Law - 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BUS105",
+          "title": "Business Communications",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "BUS401",
+          "title": "Research Methodology",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "COMP100",
+          "title": "Computers: Their Impact and Use",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "ECON160",
+          "title": "Microeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 8,
+          "code": "ECON161",
+          "title": "Macroeconomics Principles",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 9,
+          "code": "ENGL002",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "ENGL031",
+          "title": "Technical Writing 2 (for Business)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "MATH103",
+          "title": "Mathematical Methods For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 12,
+          "code": "MATH103",
+          "title": "Mathematical Methods For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 13,
+          "code": "MGT402",
+          "title": "مشروع التخرج",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 14,
+          "code": "MKT100",
+          "title": "Principles of Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 15,
+          "code": "MKT203",
+          "title": "Marketing Information Systems",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 16,
+          "code": "MKT301",
+          "title": "Strategic Of Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 17,
+          "code": "MKT346",
+          "title": "Marketing Research",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 18,
+          "code": "MKT348",
+          "title": "Consumer Behavior",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 19,
+          "code": "MKT402",
+          "title": "مشروع التخرج",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 20,
+          "code": "MKT440",
+          "title": "Integrated Marketing Communications",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 21,
+          "code": "MKT441",
+          "title": "Sales Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 22,
+          "code": "MKT443",
+          "title": "Retial Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 23,
+          "code": "MKT448",
+          "title": "Internet Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 24,
+          "code": "PHIL305",
+          "title": "Business Ethics & Public Policy",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 25,
+          "code": "SOM120",
+          "title": "Basic Business Statistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "MGT662",
+          "title": "Strategic Planning & Implementation",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "MKT254",
+          "title": "Social Media Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "MKT304",
+          "title": "Introduction To Marketing Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "MKT401",
+          "title": "Innovation and New Product Development",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "MKT464",
+          "title": "E-CRM",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "electiveRequirements": [
+        {
+          "seq": 1,
+          "code": "BUS497",
+          "title": "Capstone",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "COMP495",
+          "title": "Computer Application In Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "ECON309",
+          "title": "Economics For Managers",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "ENGL007",
+          "title": "English For Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "MGT302",
+          "title": "Supervised Training",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "MGT360",
+          "title": "Management & Organizational Behavior",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "MKT447",
+          "title": "Logistics And Transporation Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 8,
+          "code": "MKT449",
+          "title": "Marketing Management Seminars",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 9,
+          "code": "SCM492",
+          "title": "Supply Chain Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "SOC305",
+          "title": "Special topics in Marketing",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "SOM315",
+          "title": "Operation Research",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ]
+    }
+  },
+  "business-economics": {
+    "bachelor": {
+      "id": "bachelor",
+      "PlanHeader": {
+        "title": "خطة دراسة بكالوريوس اقتصاد الأعمال",
+        "totalHour": 132,
+        "generalRequirementsHours": 33,
+        "departmentRequirementsHours": 57,
+        "majorRequirementsHours": 42,
+        "electiveRequirements": 21
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "GSS100",
+          "title": "General Study Skills (Arabic).",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "GFPCA2",
+          "title": "Computer Systems and Application (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "MATH014",
+          "title": "Basic Math in Arabic (1)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "MATH015",
+          "title": "Applied Math in Arabic",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 8,
+          "code": "BCGE010",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 9,
+          "code": "ENGL002",
+          "title": "General English",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "COMP115",
+          "title": "Computer (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "ECON150",
+          "title": "Principles of Statistics",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "ECON102",
+          "title": "Principles of Management",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ECON101",
+          "title": "Principles of Accounting",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "ECON201",
+          "title": "Principles of Marketing (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "ECON215",
+          "title": "Information System for Business (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ECON110",
+          "title": "Microeconomics 1 (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "ENGL007",
+          "title": "English for Business",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "ECON216",
+          "title": "History of Economic Thought (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 8,
+          "code": "ECON111",
+          "title": "Macroeconomics 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 9,
+          "code": "ECON250",
+          "title": "Knowledge Economy (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "ECON213",
+          "title": "Innovation & Development (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "ECON225",
+          "title": "Advanced Applied Statistics (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 12,
+          "code": "ECON212",
+          "title": "Money & Banking (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 13,
+          "code": "ECON-A310",
+          "title": "Research Methodology in Economics (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 14,
+          "code": "ECON-A311",
+          "title": "Operation Research (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 15,
+          "code": "ECON375",
+          "title": "Investment Management (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 16,
+          "code": "ECON341",
+          "title": "Mathematical Economics (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 17,
+          "code": "ECON362",
+          "title": "Econometrics (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 18,
+          "code": "ECON-A320",
+          "title": "Omani Economy (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 19,
+          "code": "ECON223",
+          "title": "Labor Economics (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "majorRequirements": [
+        {
+          "seq": 1,
+          "code": "ECON210",
+          "title": "Microeconomics 2 (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ECON211",
+          "title": "Macroeconomics 2 (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "ECON220",
+          "title": "Public Finance (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "ECON440",
+          "title": "Economic Feasibility Study (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ECON415",
+          "title": "Economic Development (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "ECON431",
+          "title": "International Finance (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "ECON-A350",
+          "title": "Industrial Economics (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 8,
+          "code": "ECON421",
+          "title": "Managerial Economics (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 9,
+          "code": "ECON335",
+          "title": "Agricultural Economics (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "ECON435",
+          "title": "International Trade (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 11,
+          "code": "ECON371",
+          "title": "Islamic Economics (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 12,
+          "code": "ECON416",
+          "title": "Energy Economics (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 13,
+          "code": "ECON460",
+          "title": "Financial Economics (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 14,
+          "code": "ECON115",
+          "title": "Mathematical Business (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "electiveRequirements": [
+        {
+          "seq": 1,
+          "code": "ECON096",
+          "title": "International Political Economics (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "ECON098",
+          "title": "Principles of Commercial Law (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "ECON326",
+          "title": "Competitiveness (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "ECON413",
+          "title": "Sustainable Growth (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "ECON422",
+          "title": "Islamic Banking (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "LAW121",
+          "title": "مبادئ القانون التجاري",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "ECON411",
+          "title": "Economic Planning (Arabic)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ]
+    }
+  }
+}

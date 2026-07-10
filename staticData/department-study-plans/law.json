@@ -1,0 +1,422 @@
+{
+  "law-bachelor": {
+    "bachelor": {
+      "id": "bachelor",
+      "PlanHeader": {
+        "title": "خطة الدراسة لدرجة البكالوريوس في القانون",
+        "totalHour": 129,
+        "generalRequirementsHours": 12,
+        "departmentRequirementsHours": 108,
+        "majorRequirementsHours": 0,
+        "electiveRequirements": 9
+      },
+      "generalRequirements": [
+        {
+          "seq": 1,
+          "code": "BCGE001",
+          "title": "اللغة العربية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "BCGE002",
+          "title": "الثقافة الأسلامية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "BCGE003",
+          "title": "Oman the State and Human",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "BCGE009",
+          "title": "ريادة الأعمال",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ],
+      "departmentRequirements": [
+        {
+          "seq": 1,
+          "code": "LAW111",
+          "title": "مقدمة لدراسة القانون",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "LAW112",
+          "title": "النظم السياسية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "LAW113",
+          "title": "مقدمة في الفقه الأسلامي",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "LAW121",
+          "title": "مبادئ القانون التجاري",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW111"
+        },
+        {
+          "seq": 5,
+          "code": "LAW122",
+          "title": "القانون الإداري (1)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW111"
+        },
+        {
+          "seq": 6,
+          "code": "LAW123",
+          "title": "مبادئ الاقتصاد",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "LAW124",
+          "title": "القانون الدستوري",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW112"
+        },
+        {
+          "seq": 8,
+          "code": "LAW211",
+          "title": "مصادر الالتزام الإرادية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW111"
+        },
+        {
+          "seq": 9,
+          "code": "LAW212",
+          "title": "قانون العقوبات العام (1)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW111"
+        },
+        {
+          "seq": 10,
+          "code": "LAW213",
+          "title": "قانون الأحوال المدنية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW113"
+        },
+        {
+          "seq": 11,
+          "code": "LAW214",
+          "title": "مصطلحات ودراسات قانونية باللغة الانجليزية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW111"
+        },
+        {
+          "seq": 12,
+          "code": "LAW215",
+          "title": "القانون الإداري (2)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW122"
+        },
+        {
+          "seq": 13,
+          "code": "LAW221",
+          "title": "القانون الجنائي (1)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW224"
+        },
+        {
+          "seq": 14,
+          "code": "LAW222",
+          "title": "القانون الدولي العام",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW111"
+        },
+        {
+          "seq": 15,
+          "code": "LAW223",
+          "title": "مصادر الالتزام غير الإرادية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW211"
+        },
+        {
+          "seq": 16,
+          "code": "LAW224",
+          "title": "قانون العقوبات العام (2)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW212"
+        },
+        {
+          "seq": 17,
+          "code": "LAW311",
+          "title": "القانون الجنائي (2)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW221"
+        },
+        {
+          "seq": 18,
+          "code": "LAW312",
+          "title": "العقود المسماة",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW223"
+        },
+        {
+          "seq": 19,
+          "code": "LAW313",
+          "title": "الأحكام والالتزامات",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW223"
+        },
+        {
+          "seq": 20,
+          "code": "LAW314",
+          "title": "المستندات المصرفية والتجارية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW211"
+        },
+        {
+          "seq": 21,
+          "code": "LAW315",
+          "title": "العقوبات المدنية والتجارية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW211"
+        },
+        {
+          "seq": 22,
+          "code": "LAW321",
+          "title": "قانون العمل والتشريعات الاجتماعية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW211"
+        },
+        {
+          "seq": 23,
+          "code": "LAW322",
+          "title": "المواريث والوصايا",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW213"
+        },
+        {
+          "seq": 24,
+          "code": "LAW324",
+          "title": "القانون البحري والجوي",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW313"
+        },
+        {
+          "seq": 25,
+          "code": "LAW325",
+          "title": "الشركات التجارية والإفلاس",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW211"
+        },
+        {
+          "seq": 26,
+          "code": "LAW326",
+          "title": "قانون الإجراءات الجنائية (1)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW311"
+        },
+        {
+          "seq": 27,
+          "code": "LAW411",
+          "title": "الحقوق العقارية الأصلية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW313"
+        },
+        {
+          "seq": 28,
+          "code": "LAW412",
+          "title": "القانون الدولي الخاص",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW315"
+        },
+        {
+          "seq": 29,
+          "code": "LAW413",
+          "title": "الإجراءات المدنية والتجارية 2",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW315"
+        },
+        {
+          "seq": 30,
+          "code": "LAW414",
+          "title": "أصول الفقه الإسلامي 1",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW213"
+        },
+        {
+          "seq": 31,
+          "code": "LAW415",
+          "title": "التدريب العملي الداخلي",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": ">= 90"
+        },
+        {
+          "seq": 32,
+          "code": "LAW421",
+          "title": "أصول الفقه الإسلامي 2",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW414"
+        },
+        {
+          "seq": 33,
+          "code": "LAW422",
+          "title": "قانون الإجراءات الجنائية (2)",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW326"
+        },
+        {
+          "seq": 34,
+          "code": "LAW423",
+          "title": "حقوق الملكية العقارية الإضافية والكفالة",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW312"
+        },
+        {
+          "seq": 35,
+          "code": "LAW424",
+          "title": "قانون الإجراءات المدنية والتجارية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "LAW315, LAW326"
+        },
+        {
+          "seq": 36,
+          "code": "LAW425",
+          "title": "مشروع التخرج",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": ">= 90"
+        }
+      ],
+      "majorRequirements": [],
+      "electiveRequirements": [
+        {
+          "seq": 1,
+          "code": "LAW401",
+          "title": "قانون حماية المستهلك",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 2,
+          "code": "LAW402",
+          "title": "قانون حماية البيئة",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 3,
+          "code": "LAW403",
+          "title": "القوانين الجزائية الخاصة",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 4,
+          "code": "LAW404",
+          "title": "الجوانب القانونية للتجارة الالكترونية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 5,
+          "code": "LAW405",
+          "title": "تاريخ وفلسفة القانون",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 6,
+          "code": "LAW406",
+          "title": "المنظمات الدولية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 7,
+          "code": "LAW407",
+          "title": "قانون التأمين",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 8,
+          "code": "LAW408",
+          "title": "المالية العامة للتشريع الضريبي",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 9,
+          "code": "LAW409",
+          "title": "قانون الملكية الفكرية",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        },
+        {
+          "seq": 10,
+          "code": "LAW410",
+          "title": "قواعد التحكيم",
+          "credits": 3,
+          "oqf": 3,
+          "prerequisite": "-"
+        }
+      ]
+    }
+  }
+}
