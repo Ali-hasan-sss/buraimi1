@@ -97,7 +97,7 @@ export default function MagazinePage() {
 
             <Tabs value={activeTab} onValueChange={(v) => setActiveTab(v as typeof activeTab)}>
                 {/* Tabs Navigation */}
-                <div className="bg-white border-b border-gray-200 sticky top-0 z-40">
+                <div className="bg-white border-b border-gray-200 sticky top-[var(--site-header-height)] z-40">
                     <TabsList
                         variant="line"
                         className="flex w-full justify-start gap-2 overflow-x-auto overflow-y-hidden bg-transparent p-0"

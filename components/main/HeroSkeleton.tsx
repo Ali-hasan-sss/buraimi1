@@ -43,7 +43,7 @@ export function HeroSkeleton({
 
   return (
     <section
-      className="relative w-full overflow-hidden -mt-[112px] pt-[112px]"
+      className="relative w-full overflow-hidden -mt-[var(--site-header-height)] pt-[var(--site-header-height)]"
       style={{ height: "calc(100vh + 3cm)", minHeight: "600px" }}
       aria-busy="true"
       aria-label={t("loading")}

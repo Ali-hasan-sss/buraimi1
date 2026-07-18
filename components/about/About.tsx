@@ -133,9 +133,7 @@ export default function AboutUs() {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.4 }}
-                        className="bg-white rounded-2xl shadow-xl p-4 sm:p-6 lg:p-12 min-h-[600px] border border-gray-100
-                                max-w-[95vw]
-                        "
+                        className="bg-white rounded-2xl shadow-xl p-4 sm:p-6 lg:p-12 min-h-[600px] border border-gray-100 w-full min-w-0 max-w-full"
                     >
                         {content}
                     </motion.main>

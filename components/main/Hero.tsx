@@ -422,7 +422,7 @@ export function Hero({
 
   return (
     <section
-      className="relative w-full overflow-hidden -mt-[112px] pt-[112px] h-[100svh] min-h-[560px] md:h-[calc(100vh+3cm)] md:min-h-[600px]"
+      className="relative w-full overflow-hidden -mt-[var(--site-header-height)] pt-[var(--site-header-height)] h-[100svh] min-h-[480px] sm:min-h-[560px] md:h-[calc(100vh+3cm)] md:min-h-[600px]"
     >
       <SideActionPanel contact={sidePanelContact} />
       {slides.map((slide, index) => (
@@ -530,7 +530,7 @@ export function Hero({
           </div>
         )}
         {viewData.announcement && (
-          <div className="absolute bottom-56 left-4 right-4 z-20 md:bottom-16 md:left-16 md:right-auto">
+          <div className="absolute bottom-[7.5rem] left-4 right-4 z-20 sm:bottom-56 md:bottom-16 md:left-16 md:right-auto">
             <div className="relative max-w-full md:max-w-md">
               {isAdmin && isEditing && (
                 <button
@@ -597,7 +597,7 @@ export function Hero({
           </div>
         )}
         {isAdmin && !viewData.announcement && (
-          <div className="absolute bottom-56 left-4 right-4 z-20 md:bottom-16 md:left-16 md:right-auto">
+          <div className="absolute bottom-[7.5rem] left-4 right-4 z-20 sm:bottom-56 md:bottom-16 md:left-16 md:right-auto">
             <button
               type="button"
               className="w-full md:w-auto rounded-xl bg-white px-5 py-3 font-semibold text-[#254151] shadow-2xl ring-1 ring-black/10 transition hover:bg-gray-50"
@@ -607,7 +607,7 @@ export function Hero({
             </button>
           </div>
         )}
-        <div className="absolute bottom-14 left-4 right-4 pb-8 sm:bottom-16 sm:left-6 sm:right-6 md:bottom-0 md:left-auto md:right-16 md:max-w-3xl md:pb-16">
+        <div className="absolute bottom-12 left-4 right-4 pb-6 sm:bottom-16 sm:left-6 sm:right-6 sm:pb-8 md:bottom-0 md:left-auto md:right-16 md:max-w-3xl md:pb-16">
           <AnimatePresence mode="wait" initial={false}>
             <motion.div
               key={currentSlide}

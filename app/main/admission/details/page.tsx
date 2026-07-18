@@ -42,7 +42,7 @@ export default function AdmissionDetails() {
 
             <Tabs defaultValue="overview" className="gap-0" dir={locale == "ar" ? "rtl" : "ltr"}>
                 {/* Navigation Tabs */}
-                <div className="sticky top-[100px] z-40 bg-white shadow-md  ">
+                <div className="sticky top-[var(--site-header-height)] z-40 bg-white shadow-md  ">
                     <div className="w-[95%] mx-auto overflow-x-scroll scrollbar-hide bg-transparent ">
                         <TabsList
                             variant="line"

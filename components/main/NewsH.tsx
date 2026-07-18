@@ -110,7 +110,6 @@ export function NewsHighlights({ items }: { items: NewsItem[] }) {
                     style={{
                         transform: isDragging ? `translateX(${dragOffset * 0.8}px)` : 'translateX(0)',
                         transition: isDragging ? 'none' : 'transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1)',
-                        touchAction: 'pan-y'
                     }}
                 >
                     {currentNews.map((news, index) => {

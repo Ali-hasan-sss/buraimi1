@@ -16,7 +16,7 @@ export function SideActionPanel({
     if (!isOpen) return null;
 
     return (
-        <div className="absolute left-[8%] top-[55%] -translate-y-1/2 z-40 flex flex-col gap-3">
+        <div className="absolute start-[8%] top-[55%] z-40 hidden -translate-y-1/2 flex-col gap-3 lg:flex">
             {/* Close Button */}
             <button
                 onClick={() => setIsOpen(false)}

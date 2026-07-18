@@ -133,7 +133,7 @@ export default function DepartmentHero({
                     <div className="flex items-center justify-center gap-3 mb-6">
                         <Globe className="size-16" />
                     </div>
-                    <h1 className="text-5xl mb-4">{title}</h1>
+                    <h1 className="text-3xl sm:text-4xl lg:text-5xl mb-4 break-words">{title}</h1>
                     <p className="text-2xl text-white/90">{subTitle}</p>
 
                     {isAdmin && (

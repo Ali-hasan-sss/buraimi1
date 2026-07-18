@@ -126,11 +126,10 @@ export function CollegesShowcase({ colleges }: { colleges: DepartmentShowcaseCar
                         onMouseLeave={handleMouseLeave}
                         onMouseDown={handleMouseDown}
                         onMouseUp={handleMouseUp}
-                        className="flex gap-8 overflow-x-scroll scrollbar-hide pb-4 select-none"
+                        className="flex gap-8 overflow-x-auto scrollbar-hide pb-4 select-none touch-pan-x"
                         style={{
                             cursor: showCustomCursor ? 'none' : 'grab',
                             scrollBehavior: isDragging ? 'auto' : 'smooth',
-                            touchAction: 'pan-y'
                         }}
                     >
                         {colleges.map((college, idx) => {

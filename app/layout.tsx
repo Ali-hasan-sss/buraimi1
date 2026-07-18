@@ -67,7 +67,7 @@ export default async function RootLayout({
     <html lang={locale} dir={direction} suppressHydrationWarning>
       <body
         suppressHydrationWarning
-        className={`${cairo.variable} font-sans antialiased`}
+        className={`${cairo.variable} font-sans antialiased overflow-x-clip`}
       >
         {/* <ThemeProvider
           attribute="class"

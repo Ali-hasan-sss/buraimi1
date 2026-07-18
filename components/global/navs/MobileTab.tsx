@@ -1,8 +1,9 @@
 "use client"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
+import { MOODLE_URL } from "@/lib/external-links"
 
-import { Menu } from "lucide-react"
+import { ArrowUpRight, Menu } from "lucide-react"
 import {
     Sheet,
     SheetContent,
@@ -37,7 +38,7 @@ export default function MobileTab(
                 <Link
                     href={link.href}
                     onClick={closeSheet}
-                    className="rounded-md px-2 py-2 text-sm text-foreground hover:bg-muted break-words block"
+                    className="rounded-md px-2 py-2.5 text-sm text-foreground hover:bg-muted break-words block min-h-11"
                 >
                     {link.title}
                 </Link>
@@ -61,7 +62,7 @@ export default function MobileTab(
                         variant="ghost"
                         size="icon"
                         className={cn(
-                            "rounded-full",
+                            "size-11 rounded-full",
                             isSolid ? "text-foreground" : "text-white"
                         )}
                         aria-label="Open menu"
@@ -74,14 +75,48 @@ export default function MobileTab(
 
                     <div className="p-4 sm:p-6 overflow-y-auto max-h-[100dvh]" >
                         <SheetHeader>
-                            <SheetTitle>Menu </SheetTitle>
+                            <SheetTitle>Menu</SheetTitle>
                         </SheetHeader>
                         <div className="mt-6 space-y-6">
+                            <Link
+                                href="/main/admission"
+                                onClick={closeSheet}
+                                className="inline-flex w-full items-center justify-center gap-2 rounded-md bg-gradient-to-br from-[#e8d9bb] via-[#c9ac72] to-[#a68950] px-3 py-3 text-sm font-semibold text-[#1E3540] shadow-sm"
+                            >
+                                <span>{t("apply_now")}</span>
+                                <ArrowUpRight className="h-4 w-4 shrink-0" aria-hidden />
+                            </Link>
+
+                            <div className="grid grid-cols-1 gap-1 rounded-lg border border-border/60 p-2">
+                                <a
+                                    href={MOODLE_URL}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    onClick={closeSheet}
+                                    className="rounded-md px-2 py-2.5 text-sm font-medium text-foreground hover:bg-muted min-h-11"
+                                >
+                                    {t("model")}
+                                </a>
+                                <Link
+                                    href="/main/student-portal"
+                                    onClick={closeSheet}
+                                    className="rounded-md px-2 py-2.5 text-sm font-medium text-foreground hover:bg-muted min-h-11"
+                                >
+                                    {t("student_gateway")}
+                                </Link>
+                                <Link
+                                    href="/main/academic-calendar"
+                                    onClick={closeSheet}
+                                    className="rounded-md px-2 py-2.5 text-sm font-medium text-foreground hover:bg-muted min-h-11"
+                                >
+                                    {t("aca_cal")}
+                                </Link>
+                            </div>
 
                             <Link
-                                href="/"
+                                href="/main"
                                 onClick={closeSheet}
-                                className="block rounded-md px-2 py-2 text-sm font-medium text-foreground hover:bg-muted"
+                                className="block rounded-md px-2 py-2.5 text-sm font-medium text-foreground hover:bg-muted min-h-11"
                             >
                                 {t("main")}
                             </Link>
@@ -101,17 +136,16 @@ export default function MobileTab(
                             ))}
 
                             <Link
-                                href="/"
+                                href="/main/news"
                                 onClick={closeSheet}
-                                className="block rounded-md px-2 py-2 text-sm font-medium text-foreground hover:bg-muted"
-
+                                className="block rounded-md px-2 py-2.5 text-sm font-medium text-foreground hover:bg-muted min-h-11"
                             >
                                 {t("news")}
                             </Link>
                             <Link
                                 href="/main/contact-directory"
                                 onClick={closeSheet}
-                                className="block rounded-md px-2 py-2 text-sm font-medium text-foreground hover:bg-muted"
+                                className="block rounded-md px-2 py-2.5 text-sm font-medium text-foreground hover:bg-muted min-h-11"
                             >
                                 {t("contact")}
                             </Link>
