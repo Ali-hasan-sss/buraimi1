@@ -445,6 +445,9 @@ function CourseTable({
                             <th className="border border-gray-300 px-4 py-3 text-center w-24">
                                 {t("credits")}
                             </th>
+                            <th className="border border-gray-300 px-4 py-3 text-center w-24">
+                                {t("oqf")}
+                            </th>
                             <th className="border border-gray-300 px-4 py-3 text-center">
                                 {t("prerequisite")}
                             </th>
@@ -459,7 +462,7 @@ function CourseTable({
                         {courses.length === 0 && !isEditMode && (
                             <tr>
                                 <td
-                                    colSpan={isEditMode ? 6 : 5}
+                                    colSpan={isEditMode ? 7 : 6}
                                     className="border border-gray-300 px-4 py-8 text-center text-gray-500"
                                 >
                                     {t("noCourses")}
@@ -517,6 +520,20 @@ function CourseTable({
                                         />
                                     ) : (
                                         course.credits
+                                    )}
+                                </td>
+                                <td className="border border-gray-300 px-4 py-2 text-center">
+                                    {isEditMode ? (
+                                        <Input
+                                            type="number"
+                                            value={course.oqf}
+                                            onChange={(e) =>
+                                                onUpdate(index, "oqf", parseInt(e.target.value) || 0)
+                                            }
+                                            className="w-20 text-center"
+                                        />
+                                    ) : (
+                                        course.oqf || "-"
                                     )}
                                 </td>
                                 <td className="border border-gray-300 px-4 py-2 text-center">

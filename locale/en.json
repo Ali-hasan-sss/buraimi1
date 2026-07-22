@@ -535,6 +535,7 @@
         "courseCode": "Course Code",
         "courseTitle": "Course Title",
         "credits": "Credits",
+        "oqf": "OQF Level",
         "prerequisite": "Prerequisite",
         "actions": "Actions"
     },

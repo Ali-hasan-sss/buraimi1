@@ -535,6 +535,7 @@
         "courseCode": "رمز المساق",
         "courseTitle": "عنوان المقرر",
         "credits": "الساعات",
+        "oqf": "مستوى OQF",
         "prerequisite": "المتطلب السابق",
         "actions": "إجراءات"
     },
